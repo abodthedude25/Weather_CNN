@@ -65,7 +65,7 @@ def load_pics(dataset_path):
     return [dataset, targets, imgs]
 
 
-dataset_path = os.path.realpath('..\\final_project\dataset')
+dataset_path = os.path.realpath('..\\weather_cnn\dataset')
 
 [dataset, targets, imgs] = load_pics(dataset_path)
 
@@ -181,7 +181,7 @@ print(f"PERCENT ACCURACY OF TEST DATA: {percentage_accuracy}")
 
 #prediction of 10 archived pictures
 
-pics_path = os.path.realpath('..\\final_project\\10_personal_pics')
+pics_path = os.path.realpath('..\\weather_cnn\\10_personal_pics')
 [dataset_pics, target_pics, imgs_10_pics] = load_pics(pics_path)
 
 # trained model finished, predict
